@@ -1,0 +1,52 @@
+header {
+    background-color: rgba(230, 226, 17, 0.5);
+    margin: 0;
+    border: 3mm ridge rgb(6, 49, 215)
+}
+h1 {
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    text-shadow: 4px 4px 5px #666;
+}
+main{
+    padding: 2em 2em 2em 5em;
+}
+h2 {
+    margin: 1em -2em 1em;
+}
+h3, h4 {
+    margin: 1em  0em 0em -1em;
+}
+p {
+    margin: 0;
+}
+h1, h2, h3, h4 {
+    border-bottom: 2mm ridge rgba(13, 28, 226, 0.4)
+}
+
+a:link {
+    color: orangered
+}
+a:visited {
+    color: green
+}
+a:hover {
+    color: yellowgreen
+}
+
+div.zentai{
+    display: flex;
+    flex-direction: row;
+}
+div.main{
+    flex: 4;
+    background-color: cyan;
+    margin-left: 5px;
+}
+div.sub {
+    flex: 1;
+
+    background-color: orange;
+    margin-left:5px;
+}
