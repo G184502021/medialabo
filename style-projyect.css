@@ -1,0 +1,21 @@
+div.zentai {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 5px 5px 5px 0;
+}
+
+div.main {
+    flex: 3;
+
+    background-color: brown;
+    margin-left: 5px;
+}
+
+div.sub {
+    flex: 1;
+
+    background-color: blue;
+    margin-left: 5px;
+}

@@ -1,9 +1,8 @@
 header {
-    background-color: rgba(230, 226, 17, 0.5);
-    margin: 0;
-    border: 3mm ridge rgb(6, 49, 215)
+    background-color: rgb(6, 49, 215)
 }
 h1 {
+    text-decoration-color: #ffffff;
     text-align: center;
     padding: 1em;
     margin: 0;
@@ -21,7 +20,7 @@ h3, h4 {
 p {
     margin: 0;
 }
-h1, h2, h3, h4 {
+h2, h3, h4 {
     border-bottom: 2mm ridge rgba(13, 28, 226, 0.4)
 }
 
@@ -37,7 +36,7 @@ a:hover {
 
 div.zentai{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 div.main{
     flex: 4;
