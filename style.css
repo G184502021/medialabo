@@ -1,12 +1,12 @@
 header {
-    background-color: rgb(6, 49, 215)
+    background-color: rgb(175, 214, 230)
 }
 h1 {
-    text-decoration-color: #ffffff;
+    color: #ffffff;
     text-align: center;
     padding: 1em;
     margin: 0;
-    text-shadow: 4px 4px 5px #666;
+    text-shadow: 1px 1px 2px black,0 0 1em blue, 0 0 0.2em blue;
 }
 main{
     padding: 2em 2em 2em 5em;
@@ -36,7 +36,7 @@ a:hover {
 
 div.zentai{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 div.main{
     flex: 4;
@@ -47,7 +47,7 @@ div.sub {
     flex: 1;
 
     padding: 2em 2em 2em 2em;
-    margin-left:5px;
+    margin-left:3em;
 }
 .special {
     border-bottom: 2mm ridge rgba(226, 13, 77, 0.4)
