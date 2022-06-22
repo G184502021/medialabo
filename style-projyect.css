@@ -1,22 +1,19 @@
 div.zentai {
     display: flex;
     flex-direction: row;
-    width: 500px;
-    border: 1px solid gray;
-    padding: 5px 5px 5px 0;
+    
 }
-
 div.main {
     flex: 3;
 
-    background-color: brown;
+    background-color: rgb(235, 172, 172);
     margin-left: 5px;
 }
 
 div.sub {
     flex: 1;
 
-    background-color: blue;
+    background-color: #eeeeee;
     margin-left: 5px;
 }
 h1 {
@@ -25,4 +22,18 @@ h1 {
     padding: 1em;
     margin: 0;
     text-shadow: 1px 1px 2px black,0 0 1em blue, 0 0 0.2em blue;
+}
+table, td {
+    border:solid black;
+}
+th {
+    text-align: center;
+}
+
+div.boxzentai {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1rf 1rf;
+    grid-gap: 10px;
+
 }
