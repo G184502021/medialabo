@@ -13,17 +13,24 @@ main{
     padding: 2em 2em 2em 5em;
 }
 h2 {
-    margin: 1em -2em 1em;
+    margin: 2em -2em 1em;
 }
+
+
+
 h3, h4 {
-    margin: 1em  0em 0em -1em;
+    margin: 2em  0em 0em -1em;
 }
+
+
+
 p {
     margin: 0;
 }
 h2, h3, h4 {
     border-bottom: 2mm ridge rgba(13, 28, 226, 0.6)
 }
+
 
 a:link {
     color: rgb(255, 153, 0)
@@ -40,7 +47,7 @@ div.zentai{
     flex-direction: row;
 }
 div.main{
-    flex: 5;
+    flex: 6;
     
     
     margin:0 1em;
