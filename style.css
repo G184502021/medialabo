@@ -61,9 +61,12 @@ div.sub {
     margin:1em;
 }
 .special {
-    border-bottom: 2mm ridge rgba(226, 13, 77, 0.4)
+    border-bottom: 2mm ridge rgba(226, 13, 77, 0.4);
     
 }
 strong {
     color: rgba(255, 0, 0, 0.621);
+}
+li {
+    margin: 10px 0 0 0;
 }
