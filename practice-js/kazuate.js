@@ -18,16 +18,20 @@ function hantei() {
     // 課題3-1：ここの判定処理を作成する．
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
-    console.log(kaisu + "回目の予想: " + yoso);
-    if (kaisu > 4) console.log("答えは " + kotae + " でした。すでにゲームは終わっています");
+    let pr = document.querySelector('p#result');
+    p = document.createElement('p');
+    pr.insertAdjacentElement('beforebegin', p)
+    p.textContent = kaisu + "回目の予想: " + yoso;
+
+    if (kaisu >= 4) pr.textContent = "答えは " + kotae + " でした。すでにゲームは終わっています";
     else {
         if (yoso === kotae) {
-            console.log("正解です。おめでとう！");
+            pr.textContent = "正解です。おめでとう！";
             kaisu = 5;
         }
         else {
-            if (yoso > kotae) console.log("まちがい。答えはもっと小さいですよ");
-            else if (yoso < kotae) console.log("まちがい。答えはもっと大きいですよ");
+            if (yoso > kotae) pr.textContent = "まちがい。答えはもっと小さいですよ";
+            else if (yoso < kotae) pr.textContent = "まちがい。答えはもっと大きいですよ";
             kaisu = kaisu + 1;
         }
     }
