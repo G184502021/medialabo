@@ -3,14 +3,14 @@ let data = {
     "lon": 116.3972,
     "lat": 39.9075
   },
-  "weather": [
+  "weather": 
     {
       "id": 803,
       "main": "Clouds",
       "description": "曇りがち",
       "icon": "04d"
     }
-  ],
+  ,
   "base": "stations",
   "main": {
     "temp": 9.94,
@@ -48,6 +48,22 @@ let data = {
 ////////// 課題3-2 ここからプログラムを書こう
 
 console.log(data.name + ", " + data.main.temp_max + ", " + data.main.temp_min);
+p = document.createElement('p');
+p.textContent = data.name;
+let ct = document.querySelector('td#chinatown');
+ct.insertAdjacentElement('beforeend', p)
 
+p = document.createElement('p');
+p.textContent = data.weather.main;
 let cw = document.querySelector('td#chinaWeather');
-cw.textContent = data.weather.main;
+cw.insertAdjacentElement('beforeend', p)
+
+p = document.createElement('p');
+p.textContent = data.main.temp_max + '℃';
+let cht = document.querySelector('td#chinaHitemp');
+cht.insertAdjacentElement('beforeend', p)
+
+p = document.createElement('p');
+p.textContent = data.main.temp_min + '℃';
+let crt = document.querySelector('td#chinaRowtemp');
+crt.insertAdjacentElement('beforeend', p)
