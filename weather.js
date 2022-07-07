@@ -67,3 +67,10 @@ p = document.createElement('p');
 p.textContent = data.main.temp_min + '℃';
 let crt = document.querySelector('td#chinaRowtemp');
 crt.insertAdjacentElement('beforeend', p)
+
+let b = document.querySelector('button#kenaku');
+b.addEventListener('click',weather);
+
+function weathar() {
+  
+}
