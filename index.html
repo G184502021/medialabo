@@ -196,6 +196,21 @@
             <p>このページを編集した。</p>
 
             <h3>第5回Webページの動的な編集</h3>
+            <p>今回の講義ではWebページの動的な編集について学びました。詳細については以下の通りです。</p>
+            <ul>
+                <li>イベントとは、<strong>Webページ上で起こった</strong>出来事などの「<strong>動き</strong>」の事。また、この時JavaScriptが動くものを「<strong>イベント処理</strong>」と言う。</li>
+                <li>HTMLのイベントを入れたい箇所に<strong>IDを追加</strong>し、JavaScriptの方で<strong>イベントハンドラの登録</strong>と<strong>イベントハンドラの定義</strong>を行う。</li>
+                <li>「<strong>要素.addEventListener('イベント名',イベントハンドラ)</strong>」でイベントハンドラを登録することができる。</li>
+                <li>「<strong>function イベントハンドラ() {イベント処理}</strong>」でイベントハンドラの定義を行うことができる。</li>
+                <li>イベントには「<strong>click</strong>」や「<strong>dblclicl</strong>」など多くの種類がある。</li>
+                <li>「<strong>label  for="説明する入力項目</strong>"」「<strong>inout tyoe="text" name="名前" id="説明する入力項目" size="入力フォームサイズ"</strong>」この二つとボタンを組み合わせる事でHTMLに<strong>入力フォーム</strong>を作ることができる。この時for属性とid属性を合わせる必要がある。</li>
+                <li>JavaScript側はボタンを押されたときのイベント処理に「<strong>let i = document.querySelector('input[name="名前"]'</strong>)」でメソッドを作ることができ、「i.value」(入力された文字列を呼び出す)というようにで使うことができる。</li>
+                <li>inputのtype属性には「<strong>color</strong>」や「<strong>date</strong>」などの多くの種類がある。種類によっては「checkbox」のようにチェックボックスを作るものもある。</li>
+                <li>デバッグ方法については、fireFoxのウェブ開発ツールインスペクターを開きeventマークがついている事が確認することができればイベントは登録済みである。またeventマークをクリックすることでイベントの内容を確認できる。</li>
+            </ul>
+
+            <h4>練習5-2: イベントハンドラの登録を確認する </h4>
+            <p></p>
             <h3>第6回Webページ作成</h3>
         </main>
         </div>
