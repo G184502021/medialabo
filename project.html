@@ -4,7 +4,8 @@
         <mate charset="utf-8">
         <title>世界の天気</title>
         <link rel="stylesheet" href="style-projyect.css">
-        <script src="weather.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+        <script src="weather-project.js" defer></script>
     </head>
         <body>
             <header>
@@ -12,16 +13,33 @@
             </header>
             
             <main>
-                <div class="zentai">
+                <!--<div class="zentai">-->
                 <div class="main">
                 <div class="boxzentai">
                 
                     
                     <div class="box">
+                        
+                        <button id="kirikae">検索方法の切り替え</button>
+                        <label>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</label>
                         <label for="timei">地名</label>
                         <select  id="timei-select">
-                            <option value="">選んで</option>
-                            <option value="日本">日本</option>
+                            
+                            <option value="1850147">日本(東京)</option>
+                            <option value="524901">ロシア(モスクワ)</option>
+                            <option value="993800">南アフリカ(ヨハネスブルク)</option>
+                            <option value="1816670">中国(北京)</option>
+                            <option value="1880252">シンガポール</option>
+                            <option value="2147714">オーストラリア(シドニー)</option>
+                            <option value="2643743">イギリス(ロンドン)</option>
+                            <option value="2968815">フランス(パリ)</option>
+                            <option value="3451189">ブラジル(リオデジャネイロ)</option>
+                            <option value="5128581">アメリカ(ニューヨーク)</option>
+                            <option value="5368361">アメリカ(ロサンゼルス)</option>
+                            <option value="360630">エジプト(カイロ)</option>
+                            <!--<option valur="1">晴れている地域</option>
+                            <option value="2">曇っている地域</option>
+                            <option value="3">雨が降っている地域</option>-->
                         </select>
                         <button id="kensaku">検索</button>
                         
