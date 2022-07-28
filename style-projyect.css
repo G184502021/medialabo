@@ -6,22 +6,18 @@ div.zentai {
 div.main {
     flex: 3;
 
-    background-color: #ffffff;
+    opacity: 1.0;
     margin-left: 5px;
 }
 
-div.sub {
-    flex: 1;
 
-    background-color: #eeeeee;
-    margin-left: 5px;
-}
 h1 {
     color: #ffffff;
     text-align: center;
     padding: 1em;
     margin: 0;
     text-shadow: 1px 1px 2px black,0 0 1em blue, 0 0 0.2em blue;
+    font: size 10px;
 }
 table, th, td {
     border: 1px solid black;
@@ -29,10 +25,30 @@ table, th, td {
 }
 
 
-div.boxzentai {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1rf 1rf;
-    grid-gap: 10px;
-
+header {
+    padding:2em;
+    opacity: 1.0;
+    margin: 0 0 1em;
 }
+#box {
+    
+    text-align: center;
+    
+}
+
+#timei-select{
+
+    text-align: center;
+    margin:0 auto;
+}
+body {
+    background-image:url('https://beiz.jp/images_M/sky/sky_00016.jpg');
+}
+
+table {
+    text-align: center;
+    margin:0 auto;
+    size: 20em;
+    background-color: azure;
+}
+
